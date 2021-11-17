@@ -1,0 +1,24 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color= "success">
+    <ion-title style="text-align: center;">
+      Parques
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">  
+    <ion-list>
+      <ion-item [routerLink]="['/jaqueira']">
+        <ion-thumbnail slot="start">
+          <img src="https://media-cdn.tripadvisor.com/media/photo-s/05/cc/2a/24/lindo.jpg">
+        </ion-thumbnail>
+        <ion-label>
+          <ion-text color="tertiary">
+            <h2>Parque da Jaqueira</h2>
+          </ion-text>
+          <ion-badge color="danger" slot="end">Vitória</ion-badge>
+        </ion-label>
+        <ion-icon name="chevron-forward-outline" slot="end"></ion-icon>
+      </ion-item>
+    </ion-list>  
+</ion-content>
